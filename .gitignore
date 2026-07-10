@@ -1,0 +1,15 @@
+node_modules
+.next
+.next*
+dist
+*.log
+*.tsbuildinfo
+.DS_Store
+.env
+.env.local
+prisma/dev.db
+prisma/dev.db-journal
+storage/generated-reports/*.pdf
+storage/manual-invoices/*
+!storage/generated-reports/.gitkeep
+!storage/manual-invoices/.gitkeep
