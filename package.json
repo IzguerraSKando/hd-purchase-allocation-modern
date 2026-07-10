@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "db:generate": "prisma generate",
-    "db:push": "prisma db push",
-    "test:smoke": "node scripts/smoke-test.mjs"
+    "db:push": "prisma db push"
   },
   "dependencies": {
     "@prisma/client": "^6.10.1",
